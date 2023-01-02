@@ -49,6 +49,7 @@ ThemeData getTheme() {
         elevation: SizeManager.s5,
         disabledBackgroundColor: ColorManager.illuminatingEmeraldOpacity40,
         shape: const StadiumBorder(),
+        fixedSize: const Size(48, 48),
       ),
     ),
 
@@ -65,7 +66,8 @@ ThemeData getTheme() {
 
     // Text theme
     textTheme: TextTheme(
-      displayLarge: getRegularStyle(color: ColorManager.black),
+      displayLarge: getRegularStyle(
+          color: ColorManager.illuminatingEmerald, fontSize: SizeManager.s20),
       displayMedium: getRegularStyle(color: ColorManager.black),
       displaySmall: getRegularStyle(color: ColorManager.black),
       headlineLarge: getRegularStyle(
