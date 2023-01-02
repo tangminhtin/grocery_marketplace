@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="126px" height="170px" viewBox="0 0 126 170" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="126" height="170"></rect>
+    </defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Splash" transform="translate(-125.000000, -321.000000)">
+            <g id="Group" transform="translate(125.000000, 321.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Group-(Background/Mask)"></g>
+                <g id="Group-17-Copy" mask="url(#mask-2)">
+                    <path d="M126,9.75 L126,90.9482269 C126,96.3330032 121.634776,100.698227 116.25,100.698227 L110.25,100.698227 L110.25,100.698227 L92.5402378,126.040273 C92.0656998,126.71932 91.1305341,126.885108 90.4514869,126.41057 C89.9662113,126.071445 89.7258,125.478612 89.8378008,124.897274 L94.5,100.698227 L94.5,100.698227 L63,100.698227 L9.75,100.698227 C4.36522369,100.698227 6.59444907e-16,96.3330032 0,90.9482269 L0,9.75 C-6.59444907e-16,4.36522369 4.36522369,9.89167361e-16 9.75,0 L116.25,0 C121.634776,-1.05544516e-14 126,4.36522369 126,9.75 Z" id="Rectangle" fill="#FFFFFF"></path>
+                    <g id="Group-22" transform="translate(40.500000, 21.041504)" stroke="#21CBAA" stroke-dasharray="0,0" stroke-linecap="round" stroke-width="3.75">
+                        <line x1="0" y1="0.375739634" x2="45" y2="0.375739634" id="Line-11"></line>
+                        <line x1="-9.06287003" y1="31.93787" x2="54.81287" y2="31.93787" id="Line-11" transform="translate(22.875000, 31.937870) scale(-1, -1) rotate(-90.000000) translate(-22.875000, -31.937870) "></line>
+                    </g>
+                </g>
+                <text id="Tradly" fill="#FFFFFF" mask="url(#mask-2)" font-family=".AppleSystemUIFont" font-size="30" font-weight="normal" line-spacing="30" letter-spacing="-0.723529577">
+                    <tspan x="17" y="169">Tradly</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
