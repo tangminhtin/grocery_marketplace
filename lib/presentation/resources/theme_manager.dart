@@ -49,7 +49,7 @@ ThemeData getTheme() {
         elevation: SizeManager.s5,
         disabledBackgroundColor: ColorManager.illuminatingEmeraldOpacity40,
         shape: const StadiumBorder(),
-        fixedSize: const Size(48, 48),
+        fixedSize: const Size(150, 48),
       ),
     ),
 
@@ -67,8 +67,9 @@ ThemeData getTheme() {
     // Text theme
     textTheme: TextTheme(
       displayLarge: getRegularStyle(
-          color: ColorManager.illuminatingEmerald, fontSize: SizeManager.s20),
-      displayMedium: getRegularStyle(color: ColorManager.black),
+          color: ColorManager.illuminatingEmerald, fontSize: FontSize.f20),
+      displayMedium:
+          getRegularStyle(color: ColorManager.white, fontSize: FontSize.f16),
       displaySmall: getRegularStyle(color: ColorManager.black),
       headlineLarge: getRegularStyle(
           color: ColorManager.darkLiver, fontSize: FontSize.f18),
@@ -93,7 +94,7 @@ ThemeData getTheme() {
 
     // Input decoration
     inputDecorationTheme: InputDecorationTheme(
-      contentPadding: const EdgeInsets.all(SizeManager.s10),
+      contentPadding: const EdgeInsets.all(SizeManager.s15),
       hintStyle:
           getRegularStyle(color: ColorManager.white, fontSize: FontSize.f18),
       labelStyle: getRegularStyle(
@@ -101,11 +102,11 @@ ThemeData getTheme() {
       errorStyle: getRegularStyle(color: ColorManager.begonia),
       enabledBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(SizeManager.s25),
-        borderSide: BorderSide(color: ColorManager.darkLiver),
+        borderSide: BorderSide(color: ColorManager.white),
       ),
       focusedBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(SizeManager.s25),
-        borderSide: BorderSide(color: ColorManager.illuminatingEmerald),
+        borderSide: BorderSide(color: ColorManager.white),
       ),
       disabledBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(SizeManager.s25),

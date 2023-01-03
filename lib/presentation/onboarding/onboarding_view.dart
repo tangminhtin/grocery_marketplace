@@ -156,7 +156,9 @@ class _OnboardingViewState extends State<OnboardingView> {
             );
           }
         },
-        child: const Text(StringManager.next),
+        child: Text(numberOfSlider != currentIndex + 1
+            ? StringManager.next
+            : StringManager.finish),
       ),
     );
   }
