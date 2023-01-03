@@ -1,5 +1,5 @@
 class StringManager {
-  static const String splash = 'Grocery Market Place';
+  static const String splash = 'Grocery Marketplace';
   static const String onboardingTitle1 =
       'Empowering Artisans, Farmers & Micro Business';
   static const String onboardingTitle2 =
@@ -8,11 +8,11 @@ class StringManager {
       'Donate, Invest & Support infrastructure projects';
   static const String next = 'Next';
   static const String finish = 'Finish';
-  static const String welcome = 'Welcome to Grocery Market Place';
+  static const String welcome = 'Welcome to Grocery Marketplace';
   static const String signInToYourAccount = 'Sign in to your account';
   static const String emailOrMobileNumber = 'Email/Mobile Number';
   static const String password = 'Password';
-  static const String signIn = 'Sign in';
+  static const String signIn = 'Sign In';
   static const String forgotYourPassword = 'Forgot your password?';
   static const String doNtHaveAnAccount = 'Don\'t have an account? Sign up';
   static const String signUpToYourAccount = 'Sign up to your account';
@@ -20,7 +20,7 @@ class StringManager {
   static const String lastName = 'Last Name';
   static const String emailIdOrPhoneNumber = 'Email ID/Phone Number';
   static const String reEnterPassword = 'Re-enter Password';
-  static const String create = 'Create';
+  static const String signUp = 'Sign Up';
   static const String haveAnAccount = 'Have an account? Sign in';
   static const String verifyYourPhoneNumber = 'Verify your phone number';
   static const String weHaveSentYouAnSMS =
