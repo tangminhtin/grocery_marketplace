@@ -14,14 +14,14 @@ class StringManager {
   static const String password = 'Password';
   static const String signIn = 'Sign In';
   static const String forgotYourPassword = 'Forgot your password?';
-  static const String doNtHaveAnAccount = 'Don\'t have an account? Sign up';
+  static const String doNtHaveAnAccount = 'Don\'t have an account?';
   static const String signUpToYourAccount = 'Sign up to your account';
   static const String firstName = 'First Name';
   static const String lastName = 'Last Name';
   static const String emailIdOrPhoneNumber = 'Email ID/Phone Number';
   static const String reEnterPassword = 'Re-enter Password';
   static const String signUp = 'Sign Up';
-  static const String haveAnAccount = 'Have an account? Sign in';
+  static const String haveAnAccount = 'Have an account?';
   static const String verifyYourPhoneNumber = 'Verify your phone number';
   static const String weHaveSentYouAnSMS =
       'We have sent you an SMS with a code to enter number';

@@ -73,11 +73,11 @@ ThemeData getTheme() {
       displaySmall: getRegularStyle(color: ColorManager.black),
       headlineLarge: getRegularStyle(
           color: ColorManager.darkLiver, fontSize: FontSize.f18),
-      headlineMedium: getRegularStyle(
+      headlineMedium: getMediumStyle(
           color: ColorManager.illuminatingEmerald, fontSize: FontSize.f16),
       headlineSmall: getRegularStyle(color: ColorManager.black),
       titleLarge:
-          getRegularStyle(color: ColorManager.white, fontSize: FontSize.f24),
+          getMediumStyle(color: ColorManager.white, fontSize: FontSize.f24),
       titleMedium:
           getRegularStyle(color: ColorManager.white, fontSize: FontSize.f18),
       titleSmall: getRegularStyle(
@@ -86,7 +86,8 @@ ThemeData getTheme() {
       bodyMedium: getRegularStyle(
           color: ColorManager.darkLiverOpacity70, fontSize: FontSize.f14),
       bodySmall: getRegularStyle(color: ColorManager.black),
-      labelLarge: getRegularStyle(color: ColorManager.black),
+      labelLarge:
+          getSemiBoldStyle(color: ColorManager.white, fontSize: FontSize.f18),
       labelMedium:
           getRegularStyle(color: ColorManager.white, fontSize: FontSize.f18),
       labelSmall: getRegularStyle(color: ColorManager.black),
