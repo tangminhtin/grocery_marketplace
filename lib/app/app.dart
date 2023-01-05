@@ -18,7 +18,7 @@ class _GroceryAppState extends State<GroceryApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: Routes.splash,
+      initialRoute: Routes.signIn,
       onGenerateRoute: RouteGenerator.getRoute,
       theme: getTheme(),
     );
