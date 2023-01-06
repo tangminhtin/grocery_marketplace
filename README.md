@@ -1,4 +1,4 @@
-# grocery_marketplace
+# Grocery Marketplace
 
 A new Flutter project.
 
